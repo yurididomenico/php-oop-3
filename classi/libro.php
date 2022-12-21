@@ -2,7 +2,7 @@
 
 include_once __DIR__ . '/prodotto.php';
 
-class libro extends prodotto
+class Libro extends Prodotto
 {
   public $pagine;
   public $copertina;

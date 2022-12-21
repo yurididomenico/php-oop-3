@@ -2,7 +2,7 @@
 
 include_once __DIR__ . '/prodotto.php';
 
-class audioLibro extends prodotto
+class AudioLibro extends Prodotto
 {
   public $durata;
   public $piattaforma;
