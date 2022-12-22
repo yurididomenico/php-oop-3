@@ -3,6 +3,7 @@
 include_once __DIR__ . '/classi/generi.php';
 include_once __DIR__ . '/classi/libro.php';
 include_once __DIR__ . '/classi/audiolibro.php';
+include_once __DIR__ . '/classi/prodotto.php';
 
 
 $generi =
@@ -25,4 +26,6 @@ foreach( $prodotti as $elem )
   echo get_class($elem);
   echo "<br>";
 }
+
+
 ?>

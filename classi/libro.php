@@ -2,6 +2,7 @@
 
 include_once __DIR__ . '/prodotto.php';
 
+
 class Libro extends Prodotto
 {
   public $pagine;
