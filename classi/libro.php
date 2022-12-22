@@ -23,11 +23,13 @@ class Libro extends Prodotto
     String $immagine,
 
     Int $pagine,
-    String $copertina
+    String $copertina,
+    Int $anno
     )
     {
     $this->pagine = $pagine;
     $this->copertina = $copertina;
+    $this->anno = $anno;
     parent::__construct($nome,$autore,$prezzo,$generi,$pubblicato,$immagine );
   }
 }

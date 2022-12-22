@@ -19,6 +19,8 @@ $prodotti =
   new audioLibro('La scelta di Natan', 'Antonio Puccio', 23.40, $generi['giallo'], true, 'https://immagine-copertina.com', 120, 'spotify', 'https://spotify-libri.com'),
 ];
 
+$newLibro = new Libro( 'Il Potere del Dragone', 'Yuri Di Domenico', 23.40, $generi['fantasy'], true, 'https://immagine-copertina.com', 250, 'rigida' , 2023);  
+
 var_dump( $prodotti );
 
 foreach( $prodotti as $elem )
